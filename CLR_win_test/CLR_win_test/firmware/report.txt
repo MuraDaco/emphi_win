@@ -1,0 +1,656 @@
+FILE		0x0	0	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x0	25	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_entry"	"external"	
+FN_END		0x4	27	
+FILE		0x0	0	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\stdclib\__init.c"
+FN_START	0x6	9	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\stdclib\__init.c"	"__init"	"external"	
+FN_END		0x6	9	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"
+FN_START	0x8	98	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"	"interrupt_at_high_vector"	"external"	
+FN_END		0xc	99	
+FN_START	0x18	115	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"	"interrupt_at_low_vector"	"external"	
+FN_END		0x1c	116	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"
+FN_START	0x44	318	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"GLcdSet"	"external"	
+ADJUST		0x44	318	1
+ADJUST		0x4e	318	1
+ADJUST		0x88	329	-2
+FN_END		0x8e	329	
+FN_START	0x90	332	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdInitPorts"	"external"	
+ADJUST		0x90	332	1
+ADJUST		0x9a	332	1
+ADJUST		0xc2	356	1
+ADJUST		0xc4	356	1
+CALL		0xc6	356	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"GLcdSet"	0
+ADJUST		0xc8	356	-2
+ADJUST		0xca	358	-2
+FN_END		0xd0	358	
+FN_START	0xd2	360	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	"external"	
+ADJUST		0xd2	360	1
+ADJUST		0xdc	360	1
+ADJUST		0x12e	392	-2
+FN_END		0x134	392	
+FN_START	0x136	395	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdUpdateX"	"external"	
+ADJUST		0x136	395	1
+ADJUST		0x140	395	2
+ADJUST		0x176	415	1
+ADJUST		0x17a	415	1
+CALL		0x17c	415	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x17e	415	-2
+ADJUST		0x186	416	1
+ADJUST		0x18a	416	1
+CALL		0x18c	416	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x18e	416	-2
+ADJUST		0x196	420	1
+ADJUST		0x19a	420	1
+CALL		0x19c	420	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x19e	420	-2
+ADJUST		0x1a6	421	1
+ADJUST		0x1aa	421	1
+CALL		0x1ac	421	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x1ae	421	-2
+ADJUST		0x1c2	427	-3
+FN_END		0x1c8	427	
+FN_START	0x1ca	429	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdSetXY"	"external"	
+ADJUST		0x1ca	429	1
+ADJUST		0x1d4	429	2
+ADJUST		0x212	448	1
+ADJUST		0x214	448	1
+CALL		0x218	448	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x21a	448	-2
+ADJUST		0x220	449	1
+ADJUST		0x222	449	1
+CALL		0x226	449	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x228	449	-2
+ADJUST		0x22a	451	-3
+FN_END		0x230	451	
+FN_START	0x232	453	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdChXY"	"external"	
+ADJUST		0x232	453	1
+ADJUST		0x23c	453	4
+ADJUST		0x27a	473	1
+ADJUST		0x27c	473	1
+CALL		0x280	473	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x282	473	-2
+ADJUST		0x288	474	1
+ADJUST		0x28a	474	1
+CALL		0x28e	474	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x290	474	-2
+ADJUST		0x304	481	1
+ADJUST		0x30e	481	1
+CALL		0x310	481	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x312	481	-2
+CALL		0x318	485	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdUpdateX"	0
+ADJUST		0x31a	487	-5
+FN_END		0x320	487	
+FN_START	0x322	489	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdStrXY"	"external"	
+ADJUST		0x322	489	1
+ADJUST		0x32c	489	4
+ADJUST		0x36a	509	1
+ADJUST		0x36c	509	1
+CALL		0x370	509	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x372	509	-2
+ADJUST		0x378	510	1
+ADJUST		0x37a	510	1
+CALL		0x37e	510	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x380	510	-2
+ADJUST		0x422	522	1
+ADJUST		0x42c	522	1
+CALL		0x42e	522	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x430	522	-2
+CALL		0x436	526	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdUpdateX"	0
+ADJUST		0x43a	528	-5
+FN_END		0x440	528	
+FN_START	0x442	530	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdCh"	"external"	
+ADJUST		0x442	530	1
+ADJUST		0x44c	530	2
+ADJUST		0x4c0	539	1
+ADJUST		0x4ca	539	1
+CALL		0x4cc	539	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x4ce	539	-2
+CALL		0x4d4	543	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdUpdateX"	0
+ADJUST		0x4d6	544	-3
+FN_END		0x4dc	544	
+FN_START	0x4de	547	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdStr"	"external"	
+ADJUST		0x4de	547	1
+ADJUST		0x4e8	547	2
+ADJUST		0x58a	558	1
+ADJUST		0x594	558	1
+CALL		0x596	558	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdWriteCmd"	0
+ADJUST		0x598	558	-2
+CALL		0x59e	562	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Glcd.c"	"glcdUpdateX"	0
+ADJUST		0x5a2	565	-3
+FN_END		0x5a8	565	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"
+FN_START	0x5aa	164	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdRegInit"	"external"	
+FN_END		0x5ca	188	
+FN_START	0x5cc	190	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	"external"	
+ADJUST		0x5cc	190	1
+ADJUST		0x5f8	201	-1
+FN_END		0x5fe	201	
+FN_START	0x600	204	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	"external"	
+ADJUST		0x600	204	1
+ADJUST		0x60a	204	1
+ADJUST		0x612	208	1
+CALL		0x614	208	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	0
+ADJUST		0x616	208	-1
+ADJUST		0x61c	209	1
+CALL		0x61e	209	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	0
+ADJUST		0x620	209	-1
+ADJUST		0x634	213	-2
+FN_END		0x63a	213	
+FN_START	0x63c	215	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmdCh"	"external"	
+ADJUST		0x63c	215	1
+ADJUST		0x64c	217	1
+CALL		0x64e	217	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	0
+ADJUST		0x650	217	-1
+ADJUST		0x656	218	1
+CALL		0x658	218	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	0
+ADJUST		0x65a	218	-1
+ADJUST		0x65c	219	-1
+FN_END		0x662	219	
+FN_START	0x664	221	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit"	"external"	
+ADJUST		0x664	221	1
+ADJUST		0x66e	221	1
+CALL		0x670	228	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdRegInit"	0
+ADJUST		0x690	236	1
+CALL		0x692	236	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdInit1"	0
+ADJUST		0x694	236	-1
+ADJUST		0x6aa	244	1
+CALL		0x6ac	244	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x6ae	244	-1
+ADJUST		0x6b2	252	1
+CALL		0x6b4	252	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x6b6	252	-1
+ADJUST		0x6ba	261	1
+CALL		0x6bc	261	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x6be	261	-1
+ADJUST		0x6c2	266	1
+CALL		0x6c4	266	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x6c6	266	-1
+ADJUST		0x6e6	277	1
+CALL		0x6e8	277	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x6ea	277	-1
+ADJUST		0x6ec	281	-2
+FN_END		0x6f2	281	
+FN_START	0x6f4	283	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdSetPosition"	"external"	
+ADJUST		0x6f4	283	1
+ADJUST		0x6fe	283	1
+ADJUST		0x75c	303	1
+CALL		0x760	303	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x762	303	-1
+ADJUST		0x764	305	-2
+FN_END		0x76a	305	
+FN_START	0x76c	307	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCh"	"external"	
+ADJUST		0x76c	307	1
+ADJUST		0x776	307	1
+ADJUST		0x77a	312	1
+CALL		0x77e	312	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmdCh"	0
+ADJUST		0x780	312	-1
+ADJUST		0x796	315	-2
+FN_END		0x79c	315	
+FN_START	0x79e	318	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdStrRC"	"external"	
+ADJUST		0x79e	318	1
+ADJUST		0x7a8	320	1
+ADJUST		0x7ac	320	1
+CALL		0x7b0	320	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdSetPosition"	0
+ADJUST		0x7b2	320	-2
+ADJUST		0x7dc	325	1
+CALL		0x7e0	325	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCh"	0
+ADJUST		0x7e2	325	-1
+ADJUST		0x7ec	329	-1
+FN_END		0x7f2	329	
+FN_START	0x7f4	331	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	"external"	
+ADJUST		0x7f4	331	1
+ADJUST		0x7fe	331	5
+ADJUST		0x800	337	1
+ADJUST		0x804	337	1
+CALL		0x808	337	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdSetPosition"	0
+ADJUST		0x80a	337	-2
+ADJUST		0x810	341	1
+ADJUST		0x812	341	1
+CALL		0x816	341	"div08u.O"	"__mod08u"	0
+ADJUST		0x81a	341	-1
+ADJUST		0x822	342	1
+ADJUST		0x826	342	1
+ADJUST		0x828	342	1
+CALL		0x82c	342	"div08u.O"	"__div08u"	0
+CALL		0x830	342	"div08u.O"	"__mod08u"	0
+ADJUST		0x834	342	-1
+ADJUST		0x83c	343	1
+ADJUST		0x83e	343	1
+CALL		0x842	343	"div08u.O"	"__div08u"	0
+ADJUST		0x846	343	-1
+ADJUST		0x88e	349	1
+CALL		0x890	349	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCh"	0
+ADJUST		0x892	349	-1
+ADJUST		0x898	352	-6
+FN_END		0x89e	352	
+FN_START	0x8a0	356	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdDisplayReset"	"external"	
+ADJUST		0x8a2	356	1
+CALL		0x8a4	356	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x8a6	356	-1
+FN_END		0x8c4	359	
+FN_START	0x8c6	363	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdDisplayOff"	"external"	
+ADJUST		0x8ca	364	1
+CALL		0x8ce	364	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x8d0	364	-1
+FN_END		0x8d2	365	
+FN_START	0x8d4	368	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdDisplayOn"	"external"	
+ADJUST		0x8d8	369	1
+CALL		0x8dc	369	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x8de	369	-1
+FN_END		0x8e0	370	
+FN_START	0x8e2	374	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCursorOff"	"external"	
+ADJUST		0x8e6	375	1
+CALL		0x8ea	375	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x8ec	375	-1
+FN_END		0x8ee	376	
+FN_START	0x8f0	379	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCursorOn"	"external"	
+ADJUST		0x8f4	380	1
+CALL		0x8f8	380	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x8fa	380	-1
+FN_END		0x8fc	381	
+FN_START	0x8fe	385	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdBlinkingOff"	"external"	
+ADJUST		0x902	386	1
+CALL		0x906	386	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x908	386	-1
+FN_END		0x90a	387	
+FN_START	0x90c	390	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdBlinkingOn"	"external"	
+ADJUST		0x910	391	1
+CALL		0x914	391	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x916	391	-1
+FN_END		0x918	392	
+FN_START	0x91a	396	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdDisplayShift"	"external"	
+ADJUST		0x91e	397	1
+CALL		0x922	397	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x924	397	-1
+FN_END		0x926	398	
+FN_START	0x928	401	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCursorShift"	"external"	
+ADJUST		0x92c	402	1
+CALL		0x930	402	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x932	402	-1
+FN_END		0x934	403	
+FN_START	0x936	407	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdRightShift"	"external"	
+ADJUST		0x93a	408	1
+CALL		0x93e	408	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x940	408	-1
+FN_END		0x942	409	
+FN_START	0x944	412	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdLeftShift"	"external"	
+ADJUST		0x948	413	1
+CALL		0x94c	413	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x94e	413	-1
+FN_END		0x950	414	
+FN_START	0x952	418	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdEntryModeRightShift"	"external"	
+ADJUST		0x956	419	1
+CALL		0x95a	419	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x95c	419	-1
+FN_END		0x95e	420	
+FN_START	0x960	423	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdEntryModeLeftShift"	"external"	
+ADJUST		0x964	424	1
+CALL		0x968	424	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x96a	424	-1
+FN_END		0x96c	425	
+FN_START	0x96e	429	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdEntryModeDisplay"	"external"	
+ADJUST		0x972	430	1
+CALL		0x976	430	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x978	430	-1
+FN_END		0x97a	431	
+FN_START	0x97c	434	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdEntryModeCursor"	"external"	
+ADJUST		0x980	435	1
+CALL		0x984	435	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCmd"	0
+ADJUST		0x986	435	-1
+FN_END		0x988	436	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"
+FN_START	0x98a	42	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageSelect"	"external"	
+ADJUST		0x98a	42	1
+ADJUST		0x994	45	-1
+FN_END		0x99a	45	
+FN_START	0x99c	49	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventNull"	"external"	
+ADJUST		0x9a8	51	1
+CALL		0x9aa	51	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdCh"	0
+ADJUST		0x9ae	51	-1
+ADJUST		0x9b0	52	1
+ADJUST		0x9b6	52	1
+ADJUST		0x9ba	52	1
+CALL		0x9bc	52	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0x9c0	52	-3
+FN_END		0x9c2	54	
+FN_START	0x9c4	56	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitLightX"	"external"	
+ADJUST		0x9c4	56	1
+ADJUST		0x9ce	56	5
+ADJUST		0xa30	84	1
+ADJUST		0xa34	84	1
+ADJUST		0xa38	84	1
+CALL		0xa3a	84	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0xa3e	84	-3
+ADJUST		0xa50	85	1
+ADJUST		0xa56	85	1
+ADJUST		0xa5a	85	1
+CALL		0xa5c	85	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0xa60	85	-3
+ADJUST		0xa72	86	1
+ADJUST		0xa78	86	1
+ADJUST		0xa7c	86	1
+CALL		0xa7e	86	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0xa82	86	-3
+ADJUST		0xa8e	87	1
+ADJUST		0xa94	87	1
+ADJUST		0xa98	87	1
+CALL		0xa9a	87	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0xa9e	87	-3
+ADJUST		0xaa0	104	1
+ADJUST		0xaa2	104	1
+ADJUST		0xaa4	104	1
+ADJUST		0xaa6	104	1
+CALL		0xaa8	104	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageSelect"	0
+ADJUST		0xaaa	104	-4
+ADJUST		0xaac	105	-6
+FN_END		0xab2	105	
+FN_START	0xab4	107	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitLight"	"external"	
+ADJUST		0xab4	107	1
+ADJUST		0xabe	154	-1
+FN_END		0xac4	154	
+FN_START	0xac6	173	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventButtonsUp"	"external"	
+FN_END		0xbb0	207	
+FN_START	0xbb2	212	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventButtonsRight"	"external"	
+ADJUST		0xbc4	212	1
+CALL		0xbc8	212	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitLight"	0
+ADJUST		0xbca	212	-1
+FN_END		0xbcc	213	
+FN_START	0xbce	218	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventButtonsLeft"	"external"	
+ADJUST		0xbe0	218	1
+CALL		0xbe4	218	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitLight"	0
+ADJUST		0xbe6	218	-1
+FN_END		0xbe8	219	
+FN_START	0xbea	237	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventButtonsDown"	"external"	
+FN_END		0xcf0	273	
+FN_START	0xcf2	278	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventButtonsEnter"	"external"	
+ADJUST		0xd22	281	1
+ADJUST		0xd2e	281	-1
+FN_END		0xd30	283	
+FN_START	0xd32	298	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitCold"	"external"	
+FN_END		0xd32	298	
+FN_START	0xd34	300	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageEventOn"	"external"	
+ADJUST		0xd34	300	1
+ADJUST		0xd48	303	-1
+FN_END		0xd4e	303	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"
+FN_START	0xd50	51	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventButtonsUp"	"external"	
+ADJUST		0xd50	51	1
+ADJUST		0xd5a	51	3
+ADJUST		0xe38	89	-4
+FN_END		0xe3e	89	
+FN_START	0xe40	91	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventButtonsDown"	"external"	
+ADJUST		0xe40	91	1
+ADJUST		0xe4a	91	3
+ADJUST		0xf44	130	-4
+FN_END		0xf4a	130	
+FN_START	0xf4c	137	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventButtonsEnter"	"external"	
+FN_END		0xf4c	137	
+FN_START	0xf4e	142	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventButtonsLeft"	"external"	
+ADJUST		0xfa8	143	1
+ADJUST		0xfb4	143	-1
+FN_END		0xfb6	144	
+FN_START	0xfb8	148	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventButtonsRight"	"external"	
+FN_END		0xfb8	148	
+FN_START	0xfba	158	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxInitLight"	"external"	
+ADJUST		0xfba	158	1
+ADJUST		0xff6	163	-1
+FN_END		0xffc	163	
+FN_START	0xffe	169	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxInitCold"	"external"	
+ADJUST		0xffe	169	1
+CALL		0x1000	169	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxInitLight"	0
+ADJUST		0x1002	169	-1
+FN_END		0x1004	170	
+FN_START	0x1006	172	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxEventOn"	"external"	
+ADJUST		0x1006	172	1
+ADJUST		0x1024	186	-1
+FN_END		0x102a	186	
+FN_START	0x102c	191	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxDeselect"	"external"	
+FN_END		0x102c	191	
+FN_START	0x102e	193	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxSelect"	"external"	
+ADJUST		0x102e	193	1
+ADJUST		0x1038	209	-1
+FN_END		0x103e	209	
+FN_START	0x1040	211	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiLbox.c"	"uiLboxVisualizza"	"external"	
+ADJUST		0x1040	211	1
+ADJUST		0x104a	236	-1
+FN_END		0x1050	236	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Process.c"
+FN_START	0x1576	92	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Process.c"	"ProcessInit"	"external"	
+ADJUST		0x1576	92	1
+ADJUST		0x1580	92	1
+CALL		0x15c2	101	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPage.c"	"uiPageInitLightX"	0
+ADJUST		0x15c6	102	-2
+FN_END		0x15cc	102	
+FN_START	0x15ce	104	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Process.c"	"ProcessLoop"	"external"	
+ADJUST		0x15ce	104	1
+ADJUST		0x15d8	104	3
+ADJUST		0x165c	113	1
+ADJUST		0x166a	113	-1
+ADJUST		0x16f4	120	-4
+FN_END		0x16fa	120	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"
+FN_START	0x16fc	54	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParTimer"	"external"	
+FN_END		0x16fc	54	
+FN_START	0x16fe	61	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"ValueDisplay"	"external"	
+ADJUST		0x1700	61	1
+ADJUST		0x1704	61	1
+ADJUST		0x1708	61	1
+CALL		0x170a	61	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0x170e	61	-3
+FN_END		0x1710	62	
+FN_START	0x1712	64	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"LabelDisplay"	"external"	
+ADJUST		0x1712	64	1
+ADJUST		0x171c	64	21
+ADJUST		0x1720	73	1
+ADJUST		0x1724	73	1
+ADJUST		0x1728	73	1
+CALL		0x172a	73	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdNumberRC"	0
+ADJUST		0x172e	73	-3
+ADJUST		0x1730	74	-22
+FN_END		0x1736	74	
+FN_START	0x1738	79	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParEventButtonsUp"	"external"	
+CALL		0x175c	82	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"ValueDisplay"	0
+FN_END		0x175e	83	
+FN_START	0x1760	88	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParEventButtonsDown"	"external"	
+CALL		0x1784	91	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"ValueDisplay"	0
+FN_END		0x1786	92	
+FN_START	0x1788	97	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParEventButtonsRight"	"external"	
+FN_END		0x1788	97	
+FN_START	0x178a	102	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParEventButtonsLeft"	"external"	
+FN_END		0x178a	102	
+FN_START	0x178c	107	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParEventButtonsEnter"	"external"	
+ADJUST		0x17a8	107	1
+ADJUST		0x17b4	107	-1
+FN_END		0x17b6	108	
+FN_START	0x17b8	118	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParInitLight"	"external"	
+ADJUST		0x17b8	118	1
+ADJUST		0x17c2	120	-1
+FN_END		0x17c8	120	
+FN_START	0x17ca	126	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParInitCold"	"external"	
+FN_END		0x17ca	126	
+FN_START	0x17cc	128	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"ParEventOn"	"external"	
+ADJUST		0x17cc	128	1
+ADJUST		0x181e	135	-1
+FN_END		0x1824	135	
+FN_START	0x1826	143	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParDeselect"	"external"	
+CALL		0x1826	143	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"LabelDisplay"	0
+FN_END		0x182e	147	
+FN_START	0x1830	149	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParSelect"	"external"	
+ADJUST		0x1830	149	1
+ADJUST		0x183a	161	-1
+FN_END		0x1840	161	
+FN_START	0x1842	163	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiPar.c"	"uiParVisualizza"	"external"	
+ADJUST		0x1842	163	1
+ADJUST		0x184c	178	-1
+FN_END		0x1852	178	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Buttons.c"
+FN_START	0x1854	97	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Buttons.c"	"InitButtons"	"external"	
+FN_END		0x1878	106	
+FN_START	0x187a	108	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Buttons.c"	"LeggiButtons"	"external"	
+ADJUST		0x187a	108	1
+ADJUST		0x1884	126	-1
+FN_END		0x188a	126	
+FN_START	0x188c	128	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Buttons.c"	"ControlloButtons"	"external"	
+ADJUST		0x188c	128	1
+ADJUST		0x1896	128	1
+ADJUST		0x18e8	187	-2
+FN_END		0x18ee	187	
+FN_START	0x18f0	193	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Buttons.c"	"ButtonsTimer"	"external"	
+FN_END		0x199c	300	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Timer.c"
+FN_START	0x199e	89	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Timer.c"	"InitTimer"	"external"	
+ADJUST		0x199e	89	1
+ADJUST		0x19a8	89	1
+ADJUST		0x19e2	101	-2
+FN_END		0x19e8	101	
+FN_START	0x19ea	105	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Timer.c"	"UpdateTimer"	"external"	
+ADJUST		0x19ea	105	1
+ADJUST		0x19f4	105	1
+ADJUST		0x1a76	129	-2
+FN_END		0x1a7c	129	
+FN_START	0x1a7e	148	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Timer.c"	"ControlloTimer0"	"external"	
+ADJUST		0x1a7e	148	1
+ADJUST		0x1ab0	159	-1
+FN_END		0x1ab6	159	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"
+FN_START	0x1ab8	122	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"	"high_isr"	"external"	
+ADJUST		0x1b08	122	18
+CALL		0x1b18	134	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Timer.c"	"UpdateTimer"	0
+ADJUST		0x1b66	136	-18
+FN_END		0x1b6a	136	
+FN_START	0x1b6c	141	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"	"low_isr"	"external"	
+ADJUST		0x1b74	141	3
+ADJUST		0x1b78	144	-3
+FN_END		0x1b7c	144	
+FN_START	0x1b7e	161	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Interrupt.c"	"InitInterruptTimer"	"external"	
+FN_END		0x1b98	189	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Touch.c"
+FN_START	0x1b9a	130	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Touch.c"	"touchInit"	"external"	
+CALL		0x1bb0	152	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcInit"	0
+FN_END		0x1bbe	156	
+FN_START	0x1bc0	158	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Touch.c"	"TouchTimer"	"external"	
+ADJUST		0x1bc0	158	1
+ADJUST		0x1bca	158	2
+ADJUST		0x1bde	189	1
+CALL		0x1be0	189	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcReadChannel"	0
+ADJUST		0x1be4	189	-1
+ADJUST		0x1bea	190	1
+CALL		0x1bec	190	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcReadChannel"	0
+ADJUST		0x1bf0	190	-1
+ADJUST		0x1c1a	216	1
+CALL		0x1c1c	216	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcReadChannel"	0
+ADJUST		0x1c20	216	-1
+ADJUST		0x1c40	231	1
+CALL		0x1c42	231	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcReadChannel"	0
+ADJUST		0x1c46	231	-1
+ADJUST		0x1c5c	282	-3
+FN_END		0x1c62	282	
+FN_START	0x1c64	284	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Touch.c"	"ControlloTouch0"	"external"	
+ADJUST		0x1c64	284	1
+ADJUST		0x1c6e	286	-1
+FN_END		0x1c74	286	
+FN_START	0x1c76	290	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Touch.c"	"touchCheckLoopParallel"	"external"	
+FN_END		0x1c76	290	
+FILE		0x0	0	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x1c78	81	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_do_cinit"	"external"	
+FN_END		0x1d14	184	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiBase.c"
+FN_START	0x1d16	42	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiBase.c"	"BaseNull"	"external"	
+FN_END		0x1d16	42	
+FN_START	0x1d18	44	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiBase.c"	"BaseNullPar"	"external"	
+ADJUST		0x1d18	44	1
+ADJUST		0x1d22	47	-1
+FN_END		0x1d28	47	
+FN_START	0x1d2a	49	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiBase.c"	"BaseNullParCoordinate"	"external"	
+ADJUST		0x1d2a	49	1
+ADJUST		0x1d34	52	-1
+FN_END		0x1d3a	52	
+FN_START	0x1d3c	67	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiBase.c"	"uiBaseInitCold"	"external"	
+ADJUST		0x1d3c	67	1
+ADJUST		0x1d46	67	1
+ADJUST		0x1d9a	83	-2
+FN_END		0x1da0	83	
+FILE		0x0	0	"div08u.O"
+FN_START	0x1dba	64	"div08u.O"	"__div08u"	"visibility"	
+ADJUST		0x1dba	64	4
+BRANCH	0x1dbe	68	0x1dc6
+FN_END		0x1dbe	68	
+FN_START	0x1dc0	74	"div08u.O"	"__mod08u"	"visibility"	
+ADJUST		0x1dc0	74	4
+LABEL	0x1dc6	83	0x1dc6
+ADJUST		0x1df0	121	-1
+ADJUST		0x1df2	123	-1
+ADJUST		0x1dfa	129	-3
+FN_END		0x1dfc	131	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"
+FN_START	0x1dfe	124	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcInit"	"external"	
+FN_END		0x1e0a	163	
+FN_START	0x1e0c	166	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2ADC.c"	"adcReadChannel"	"external"	
+ADJUST		0x1e0c	166	1
+ADJUST		0x1e16	166	1
+ADJUST		0x1e48	192	-2
+FN_END		0x1e4e	192	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Test.c"
+FN_START	0x1e50	110	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Test.c"	"TestInit"	"external"	
+ADJUST		0x1e50	110	1
+ADJUST		0x1e5a	110	21
+ADJUST		0x1e5e	114	1
+ADJUST		0x1e62	114	1
+ADJUST		0x1e64	114	1
+ADJUST		0x1e6a	114	1
+ADJUST		0x1e6c	114	1
+CALL		0x1e70	114	"scpyp2r.O"	"strcpypgm2ram"	0
+ADJUST		0x1e74	114	-5
+ADJUST		0x1e7a	115	1
+ADJUST		0x1e7c	115	1
+ADJUST		0x1e80	115	1
+ADJUST		0x1e84	115	1
+CALL		0x1e86	115	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2Lcd.c"	"LcdStrRC"	0
+ADJUST		0x1e8a	115	-4
+ADJUST		0x1e8c	133	-22
+FN_END		0x1e92	133	
+FN_START	0x1e94	139	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Test.c"	"TestTmrSecond"	"external"	
+FN_END		0x1e9c	151	
+FN_START	0x1e9e	219	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Test.c"	"TestTmrGLCD"	"external"	
+FN_END		0x1e9e	219	
+FILE		0x0	0	"scpyp2r.O"
+FN_START	0x1ea0	62	"scpyp2r.O"	"strcpypgm2ram"	"visibility"	
+ADJUST		0x1ea2	62	1
+ADJUST		0x1ea8	62	1
+ADJUST		0x1eae	62	1
+ADJUST		0x1eb4	66	1
+ADJUST		0x1eba	66	1
+FN_END		0x1ed0	82	
+FILE		0x0	0	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x1f22	34	"E:\MPASM_MPLINK_PIC18_LT_Branch_3_42\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_startup"	"external"	
+FN_END		0x1f3a	51	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiVar.c"
+FN_START	0x1f54	30	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiVar.c"	"uiVarInitCold"	"external"	
+FN_END		0x1f54	30	
+FN_START	0x1f56	32	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiVar.c"	"uiVarInitLight"	"external"	
+ADJUST		0x1f56	32	1
+ADJUST		0x1f60	35	-1
+FN_END		0x1f66	35	
+FN_START	0x1f68	40	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiVar.c"	"VarSetState"	"external"	
+FN_END		0x1f68	40	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiStr.c"
+FN_START	0x1f6a	30	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiStr.c"	"uiStrInitCold"	"external"	
+FN_END		0x1f6a	30	
+FN_START	0x1f6c	32	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiStr.c"	"uiStrInitLight"	"external"	
+ADJUST		0x1f6c	32	1
+ADJUST		0x1f76	35	-1
+FN_END		0x1f7c	35	
+FN_START	0x1f7e	40	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\uiStr.c"	"StrSetState"	"external"	
+FN_END		0x1f7e	40	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Micro.c"
+FN_START	0x1f80	81	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\rs2HW_Micro.c"	"InitMicro"	"external"	
+FN_END		0x1f94	97	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\main.c"
+FN_START	0x1fa8	74	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\main.c"	"main"	"external"	
+CALL		0x1fa8	74	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Process.c"	"ProcessInit"	0
+CALL		0x1fac	78	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Process.c"	"ProcessLoop"	0
+FN_END		0x1fb2	80	
+FILE		0x0	0	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Event.c"
+FN_START	0x1fd2	95	"C:\Users\Administrator\Documents\20-Firmware\emphi\work\Event.c"	"EventNull"	"external"	
+FN_END		0x1fd2	95	
