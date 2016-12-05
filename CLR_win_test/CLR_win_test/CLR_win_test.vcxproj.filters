@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="firmware">
+      <UniqueIdentifier>{9001c7ce-3793-429e-8ef6-ee8717990d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>File di risorse</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CLR_win_test.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFrm1.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="dntDef.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2Lcd.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2HW_Interrupt.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2Timer.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2HW_Micro.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2Buttons.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\Process.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\ProcessTable.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2ADC.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\rs2Touch.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\Def.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\Event.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\fnDef.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\Test.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiApplication.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiBase.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiDef.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiLbox.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiPage.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiPar.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiStr.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="firmware\uiVar.cpp">
+      <Filter>firmware</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFrm1.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="dntLcdGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2Lcd.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2HW_Interrupt.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2Timer.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2HW_Micro.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2Buttons.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2ButtonsGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="dntButtonsGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\fnThermostatGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiPar.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiParGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiBase.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiBaseGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiGeneralGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiLbox.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiLboxGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiPage.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiPageGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiStr.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiStrGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiVar.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\uiVarGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\Process.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\ProcessGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\ProcessTable.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="firmware\rs2TimerGlo.h">
+      <Filter>firmware</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>File di risorse</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFrm1.resx">
+      <Filter>File di risorse</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
